@@ -106,6 +106,7 @@ export default {
         this.loading = false
       }
     } else {
+      this.$store.commit('unsetCurrentUser')
       this.$router.replace('/signin')
     }
   },

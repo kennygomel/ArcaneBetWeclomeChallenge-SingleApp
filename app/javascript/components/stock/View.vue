@@ -55,6 +55,7 @@ export default {
         })
         .catch(error => this.setError(error, 'Cannot get stock'))
     } else {
+      this.$store.commit('unsetCurrentUser')
       this.$router.replace('/signin')
     }
   },
