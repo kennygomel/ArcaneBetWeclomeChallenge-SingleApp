@@ -1,0 +1,29 @@
+{
+  "name": "arcanebet",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "@rails/webpacker": "3.5",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.7.2",
+    "cypress": "^3.1.0",
+    "jquery": "^3.3.1",
+    "js-md5": "^0.7.3",
+    "v-calendar": "^0.9.7",
+    "vue": "^2.5.17",
+    "vue-axios": "^2.1.3",
+    "vue-chartjs": "^3.4.0",
+    "vue-loader": "14.2.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuetiful": "^0.2.13",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
