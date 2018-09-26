@@ -30,6 +30,15 @@ DATABASE_USERNAME: 'YOUR_DATABASE_USERNAME' # arcanebet
 DATABASE_PASSWORD: 'YOUR_DATABASE_PASSWORD' # arcanebet
 ```
 
+For the last step you need to apply database migrations
+
+```
+# if you didn't created the database
+rails db:create
+
+rails db:migrate
+```
+
 And now you can start the app
 
 ```
