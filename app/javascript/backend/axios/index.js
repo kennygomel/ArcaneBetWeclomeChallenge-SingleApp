@@ -1,10 +1,7 @@
 import axios from 'axios'
 import {store} from './../../store'
 
-const API_URL = 'http://localhost:3000'
-
 const securedAxiosInstance = axios.create({
-  baseURL: API_URL,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
@@ -12,7 +9,6 @@ const securedAxiosInstance = axios.create({
 })
 
 const plainAxiosInstance = axios.create({
-  baseURL: API_URL,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
