@@ -4,6 +4,8 @@
 
 ## Installation
  
+Make sure that you have installed PostgreSQL and Redis
+
 Use these commands to run the project
 
 ```
@@ -14,7 +16,23 @@ cd ArcaneBet
 bundle install
 
 npm install
+```
 
+Create **local_env.yml** file at **config/** folder.
+It will be used for environment variables.
+This file should contain at least next params:
+
+```
+REDIS_URL: 'YOUR_REDIS_URL_WITH_PORT' #redis://localhost:6379/1
+DATABASE_URL: 'YOUR_DATABASE_URL' # localhost
+DATABASE_NAME: 'YOUR_DATABASE_NAME' # arcanebet
+DATABASE_USERNAME: 'YOUR_DATABASE_USERNAME' # arcanebet
+DATABASE_PASSWORD: 'YOUR_DATABASE_PASSWORD' # arcanebet
+```
+
+And now you can start the app
+
+```
 rails s
 ```
 
